@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="6.3.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=display.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\display -TC:\CooCox\CoIDE\configuration\ProgramData\display/link.ld -g">
+      <target file="display.elf" lastModified="15eed66afea">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="15ee733c01a"/>
+         <source file="..\obj\dmd.o" lastModified="15eecb3396a"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="15ee733c165"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="15ee733c1aa"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="15ee733c1e9"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="15ee733c22e"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="15ee733c292"/>
+         <source file="..\obj\main.o" lastModified="15ee837d4db"/>
+         <source file="..\obj\font.o" lastModified="15ee733c34b"/>
+         <source file="..\obj\stm32f10x_crc.o" lastModified="15ee733c38a"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="15ee733c3de"/>
+         <source file="..\obj\gpio.o" lastModified="15ee733c443"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="15ee733c487"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="15ee733c4eb"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="15ee733c550"/>
+         <source file="..\obj\stm32f10x_dma.o" lastModified="15ee733c5a4"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="15ee733c608"/>
+         <source file="..\obj\dma.o" lastModified="15eed66adeb"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="15ee733c6c0"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="15ee733c6ff"/>
+      </target>
+   </processor>
+</history>

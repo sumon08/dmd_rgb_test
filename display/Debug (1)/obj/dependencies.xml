@@ -1,0 +1,468 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1 /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\dma /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\stm_lib /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\cmsis /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\dmd /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\cmsis_boot /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\stm_lib\inc /I..\..\..\..\..\Users\Sumon\Google Drive /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\gpio /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\dmd\font">
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="15c360b8ca2">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\source\dma\dma.h" lastModified="15d85832cf2">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="15d75b5b882">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\font\arial12.h" lastModified="15c194dbc15">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="15c0d0733d4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="15bf26ba78b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="15c360e3539">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="15d7ac91bac">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="15c0d0733f3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15bf26ba7ae">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="15d8a4567e4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="15bf26b7782">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15bf26b777f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_bkp.h" lastModified="15c0d1786c3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="15bf26bbb4b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="15bf26b7778">
+      </source>
+      <source file="..\..\..\source\dmd\font\arial10.h" lastModified="15c19522d09">
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="15bf26b7f89">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="15bf26ba75f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\font\arial18.h" lastModified="15c0fbbf289">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_crc.h" lastModified="15bf26bd1d0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15dd262126b">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15bf26bacbf">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15bf26ba779">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="15d75b5b867">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\dmd_cnfg.h" lastModified="15ea577045c">
+      </source>
+      <source file="..\..\..\main.c" lastModified="15ee837bbf8">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\source\gpio\gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\source\dmd\dmd.h"/>
+         <include file="..\..\..\source\dma\dma.h"/>
+         <include file="..\..\..\source\dmd\font.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="15bf26b7f93">
+      </source>
+      <source file="..\..\..\source\dmd\font\arial16.h" lastModified="15c19442fec">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="15c0d0733d4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\dmd.h" lastModified="15ee830dc55">
+         <include file="..\..\..\source\dmd\dmd_cnfg.h"/>
+         <include file="..\..\..\source\gpio\gpio.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15bf26ba798">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="15bf26b7b4b">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="15c0d0733fa">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\font\arial15.h" lastModified="15c0d5e7b79">
+      </source>
+      <source file="..\..\..\source\dmd\dmd.c" lastModified="15eecb315e0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\source\dmd\dmd.h"/>
+         <include file="..\..\..\source\dmd\dmd_cnfg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\source\dmd\font\arial16.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15d8a4567f6">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\gpio\gpio.h" lastModified="15d7af11fc4">
+      </source>
+      <source file="..\..\..\source\dmd\font\arial14.h" lastModified="15c0fafe4db">
+      </source>
+      <source file="..\..\..\source\dmd\font.h" lastModified="15c07ac8f02">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="15c0d1786c4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="15bf26bbb51">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h" lastModified="15c360e3538">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="15d7ac91ba1">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="15bf26ba7a9">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="15bf26bacb8">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\gpio\gpio.c" lastModified="15d7af2a01f">
+         <include file="..\..\..\source\gpio\gpio.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\font.c" lastModified="15c0fbb4780">
+         <include file="..\..\..\source\dmd\font.h"/>
+         <include file="..\..\..\source\dmd\font\arial10.h"/>
+         <include file="..\..\..\source\dmd\font\arial12.h"/>
+         <include file="..\..\..\source\dmd\font\arial13.h"/>
+         <include file="..\..\..\source\dmd\font\arial14.h"/>
+         <include file="..\..\..\source\dmd\font\arial15.h"/>
+         <include file="..\..\..\source\dmd\font\arial16.h"/>
+         <include file="..\..\..\source\dmd\font\arial18.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="15bf26bd1d1">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\font\arial13.h" lastModified="15bf5617fd4">
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\source /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\source\rtc /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\source\gpio /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\source\dmd\font /I..\..\..\..\..\Users\Sumon\Google Drive /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\stm_lib\inc /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\cmsis /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\stm_lib /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\cmsis_boot /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\source\temp /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\source\dmd\bangla /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\source\dma /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo\source\dmd">
+      <source file="..\..\..\source\dma\dma.h" lastModified="15d85832cf2">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="15d75b5b882">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\seven.c" lastModified="1580f747c10">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="15c0d0733d4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="15bf26ba78b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\two.c" lastModified="1580f83c620">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="15c360e3539">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="15d7ac91bac">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="15c0d0733f3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15bf26ba7ae">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\nine.c" lastModified="1580f6e7130">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="15d8a4567e4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="15bf26b7782">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15bf26b777f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\temp\temp.h" lastModified="15d8a668de6">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_bkp.h" lastModified="15c0d1786c3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="15bf26bbb4b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="15bf26b7778">
+      </source>
+      <source file="..\..\..\source\temp\temp.c" lastModified="15dccd7a529">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\source\temp\temp.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\five.c" lastModified="1580f7e6ef0">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="15bf26ba75f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\rtc\rtc.h" lastModified="15de1ae1811">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_crc.h" lastModified="15bf26bd1d0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15dd262126b">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15bf26bacbf">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15bf26ba779">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="15d75b5b867">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\dmd_cnfg.h" lastModified="15ea577045c">
+      </source>
+      <source file="..\..\..\source\dmd\bangla\six.c" lastModified="1580f77e710">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="15c0d0733d4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15bf26ba798">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="15c0d0733fa">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\eight.c" lastModified="1580f8481a0">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15d8a4567f6">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\three.c" lastModified="1580f837030">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\four.c" lastModified="1580f5dfe40">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\source\gpio\gpio.h" lastModified="15d7af11fc4">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="15c0d1786c4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="15bf26bbb51">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h" lastModified="15c360e3538">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="15d7ac91ba1">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="15bf26ba7a9">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="15bf26bacb8">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\one.c" lastModified="1580fae9313">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\zero.c" lastModified="1580f83ed30">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="15bf26bd1d1">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+      </source>
+   </includePath>
+   <includePath signature="/I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\rtc /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\dma /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\cmsis /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\dmd /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source /I..\..\..\..\..\Users\Sumon\Google Drive /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\gpio /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\dmd\font /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\temp /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1 /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\stm_lib /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\cmsis_boot /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\stm_lib\inc /I..\..\..\..\..\Users\Sumon\Google Drive\Meghna Demo1\source\dmd\bangla">
+      <source file="..\..\..\source\dma\dma.h" lastModified="15d85832cf2">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="15d75b5b882">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_i2c.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\seven.c" lastModified="1580f747c10">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="15c0d0733d4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="15bf26ba78b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\two.c" lastModified="1580f83c620">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="15c360e3539">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="15d7ac91bac">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="15c0d0733f3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15bf26ba7ae">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\nine.c" lastModified="1580f6e7130">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="15d8a4567e4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="15bf26b7782">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15bf26b777f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\temp\temp.h" lastModified="15d8a668de6">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_bkp.h" lastModified="15c0d1786c3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_dma.h" lastModified="15bf26bbb4b">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="15bf26b7778">
+      </source>
+      <source file="..\..\..\source\temp\temp.c" lastModified="15dccd7a529">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\source\temp\temp.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\five.c" lastModified="1580f7e6ef0">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="15bf26ba75f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\rtc\rtc.h" lastModified="15de1ae1811">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_crc.h" lastModified="15bf26bd1d0">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15dd262126b">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15bf26bacbf">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15bf26ba779">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_i2c.h" lastModified="15d75b5b867">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\dmd_cnfg.h" lastModified="15ea577045c">
+      </source>
+      <source file="..\..\..\source\dmd\bangla\six.c" lastModified="1580f77e710">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="15c0d0733d4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15bf26ba798">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="15c0d0733fa">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\eight.c" lastModified="1580f8481a0">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15d8a4567f6">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\three.c" lastModified="1580f837030">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\four.c" lastModified="1580f5dfe40">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\source\gpio\gpio.h" lastModified="15d7af11fc4">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="15c0d1786c4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="15bf26bbb51">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_dma.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h" lastModified="15c360e3538">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="15d7ac91ba1">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="15bf26ba7a9">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="15bf26bacb8">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\one.c" lastModified="1580fae9313">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\source\dmd\bangla\zero.c" lastModified="1580f83ed30">
+         <include file="..\..\..\source\dmd\bangla\pattern.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="15bf26bd1d1">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+      </source>
+   </includePath>
+</dependencies>

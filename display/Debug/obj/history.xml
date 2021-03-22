@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\..\..\Users\Asus\Google Drive\rgb -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\source\dmd\font -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\stm_lib\inc -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\source\gpio -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\source\dma -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\stm_lib -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\cmsis_boot -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\source -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\cmsis -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color\source\dmd -I..\..\..\..\..\Users\Asus\Google Drive\rgb\RGB True Color">
+      <target file="gpio.o" lastModified="1624e603f24">
+         <source file="..\..\..\source\gpio\gpio.c" lastModified="15d7af296e8"/>
+      </target>
+      <target file="stm32f10x_iwdg.o" lastModified="1624e60430b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="15c360e3218"/>
+      </target>
+      <target file="stm32f10x_crc.o" lastModified="1624e603e1c">
+         <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="15bf26bd1a0"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="1624e603ea5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="15bf26ba6a8"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="1624e603c28">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="15c0d073090"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="1624e6041a8">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="15d75b5b548"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="1624e603bb0">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="15dd2620ee0"/>
+      </target>
+      <target file="dmd.o" lastModified="1624e60c767">
+         <source file="..\..\..\source\dmd\dmd.c" lastModified="1624e603591"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="1624e60429d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="15c0d178440"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="1624e603ca5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="15bf26ba6a8"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="1624e603918">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="15c0d073090"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="1624e603f97">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="15d7ac919d0"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="1624e603b4a">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="15bf26b73e0"/>
+      </target>
+      <target file="font.o" lastModified="1624e603daf">
+         <source file="..\..\..\source\dmd\font.c" lastModified="15c0fbb4088"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="1624e603ad9">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="15bf26baa90"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="1624e604020">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="15d8a456530"/>
+      </target>
+      <target file="dma.o" lastModified="1624e6e3521">
+         <source file="..\..\..\source\dma\dma.c" lastModified="1624e6e3202"/>
+      </target>
+      <target file="stm32f10x_dma.o" lastModified="1624e60411d">
+         <source file="..\..\..\stm_lib\src\stm32f10x_dma.c" lastModified="15bf26bba30"/>
+      </target>
+      <target file="main.o" lastModified="1624e77e7e1">
+         <source file="..\..\..\main.c" lastModified="1624e77e4d3"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="1624e6040a5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="15bf26ba6a8"/>
+      </target>
+   </processor>
+</history>
